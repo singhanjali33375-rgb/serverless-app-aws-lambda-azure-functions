@@ -1,0 +1,12 @@
+openapi: 3.0.0
+info:
+  title: Serverless Application API
+  version: 1.0.0
+
+paths:
+  /hello:
+    get:
+      summary: Serverless API endpoint
+      responses:
+        '200':
+          description: Successful response
